@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Amazon Clone",
+        "desc": "Engineered a static webpage replicating Amazon’s interface using HTML and CSS. Focused on the layout, design, and responsiveness to create a visually similar experience to the actual Amazon website."
+    },
+    {
+        "name": "To-Do List",
+        "desc": "Created a to-do list application using React, incorporating features for adding, deleting, and modifying tasks. Implemented state management with hooks and designed an intuitive user interface to enhance user experience."
+    },
+    {
+        "name": "Travel Website",
+        "desc": "Currently working on the development of a travel enthusiast website enabling users to search and discover the best places to visit using React. The project involves integrating APIs for fetching travel data, and implementing search and filter functionalities to provide users with relevant information."
+    },
+    {
+        "name": "Space Website",
+        "desc": "Developed a responsive space-related content website (only frontend), enabling users to learn about the latest news in the domain of space using React. Focused on creating a dynamic UI with modern design principles and ensuring compatibility across different devices."
+    },
+    {
+        "name": "Human Following Robot",
+        "desc": "Designed and developed a human-following robot utilizing Arduino technology. Implemented sensors and control algorithms to enable the robot to detect and follow a human target, ensuring smooth and accurate movement."
+    },
+    {
+        "name": "Processor Architecture",
+        "desc": "Designed a complete processor using Verilog. Worked on the architecture design, coding, and simulation to ensure proper functionality. The project involved understanding digital logic, pipelining, and instruction set architecture."
+    }
+]

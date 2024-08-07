@@ -1,1 +1,1 @@
-# portfolio
+Welcome to my portfolio website! Here, you'll find a showcase of my work, skills, and projects. This site is a reflection of my journey and achievements, and it's designed to give you a glimpse into my capabilities and interests.
