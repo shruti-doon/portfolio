@@ -27,14 +27,13 @@ const About = () => {
           MORE ABOUT ME
         </button>
 
-        {/* Conditionally render additional content */}
         {isVisible && (
           <div className='mt-6 p-6 bg-gray-800 rounded-lg'>
             <h3 className='text-xl font-bold text-teal-400'>Additional Information</h3>
             <p className='mt-2 text-gray-300'>
-              {/* Add your additional information here */}
+             
               School: HCAS
-              {/* You can include more details or content here */}
+            
             </p>
           </div>
         )}

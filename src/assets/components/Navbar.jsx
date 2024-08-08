@@ -4,7 +4,7 @@ import { faAddressCard, faBars } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const menuRef = useRef(null); // Ref to the mobile menu
+  const menuRef = useRef(null);
 
   const toggleMenu = () => setIsOpen(!isOpen);
 
@@ -13,7 +13,7 @@ const Navbar = () => {
     if (element) {
       element.scrollIntoView({
         behavior: 'smooth',
-        block: 'center' // This aligns the section to the center of the viewport
+        block: 'center' 
       });
     }
   };
@@ -21,11 +21,10 @@ const Navbar = () => {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth' // Smooth scrolling
+      behavior: 'smooth'
     });
   };
 
-  // Handle clicks outside of the menu
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (menuRef.current && !menuRef.current.contains(event.target) && !event.target.closest('.md:hidden')) {
@@ -59,7 +58,7 @@ const Navbar = () => {
             className='text-white uppercase hover:text-shadow-white-lg transform transition-transform duration-300 ease-in hover:scale-110 cursor-pointer'
             onClick={() => {
               scrollToSection('about');
-              setIsOpen(false); // Close menu after selection
+              setIsOpen(false); 
             }}
           >
             About Me
@@ -68,7 +67,7 @@ const Navbar = () => {
             className='text-white uppercase hover:text-shadow-white-lg transform transition-transform duration-300 ease-in hover:scale-110 cursor-pointer'
             onClick={() => {
               scrollToSection('skills');
-              setIsOpen(false); // Close menu after selection
+              setIsOpen(false); 
             }}
           >
             My Skills
@@ -77,7 +76,7 @@ const Navbar = () => {
             className='text-white uppercase hover:text-shadow-white-lg transform transition-transform duration-300 ease-in hover:scale-110 cursor-pointer'
             onClick={() => {
               scrollToSection('ach');
-              setIsOpen(false); // Close menu after selection
+              setIsOpen(false);
             }}
           >
             Achievements
@@ -86,7 +85,7 @@ const Navbar = () => {
             className='text-white uppercase hover:text-shadow-white-lg transform transition-transform duration-300 ease-in hover:scale-110 cursor-pointer'
             onClick={() => {
               scrollToSection('exp');
-              setIsOpen(false); // Close menu after selection
+              setIsOpen(false); 
             }}
           >
             Experience
@@ -95,7 +94,7 @@ const Navbar = () => {
             className='text-white uppercase hover:text-shadow-white-lg transform transition-transform duration-300 ease-in hover:scale-110 cursor-pointer'
             onClick={() => {
               scrollToSection('project');
-              setIsOpen(false); // Close menu after selection
+              setIsOpen(false);
             }}
           >
             Project
@@ -104,7 +103,7 @@ const Navbar = () => {
             className='text-white uppercase hover:text-shadow-white-lg transform transition-transform duration-300 ease-in hover:scale-110 cursor-pointer'
             onClick={() => {
               scrollToSection('contact');
-              setIsOpen(false); // Close menu after selection
+              setIsOpen(false); 
             }}
           >
             Contact Me
@@ -112,7 +111,6 @@ const Navbar = () => {
         </ul>
       </div>
 
-      {/* Mobile Menu Button */}
       <button
         className='md:hidden text-white text-3xl'
         onClick={toggleMenu}

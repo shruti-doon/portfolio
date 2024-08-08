@@ -8,14 +8,14 @@ import Experience from './assets/components/Experience';
 import Achievement from './assets/components/Achievement';
 import Project from './assets/components/Project';
 import Footer from './assets/components/Footer';
-import 'aos/dist/aos.css'; // Import AOS styles
+import 'aos/dist/aos.css'; 
 import AOS from 'aos';
 AOS.init({
-  duration: 1000, // Animation duration in milliseconds
-  easing: 'ease-in-out', // Easing function for animation
-  once: false, // Whether animation should happen only once
+  duration: 1000, 
+  easing: 'ease-in-out',
+  once: false,
   mirror: true, 
-}); // Initialize AOS
+}); 
 import Bg from "./assets/images/bg.mp4";
 
 const App = () => {

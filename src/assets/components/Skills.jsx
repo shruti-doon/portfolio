@@ -5,8 +5,8 @@ import skills from '../../skills.json';
 
 const Skills = () => {
   const { ref, inView } = useInView({
-    triggerOnce: false, // Allow the animation to repeat
-    threshold: 0.1,     // Trigger when 10% of the section is in view
+    triggerOnce: false, 
+    threshold: 0.1,   
   });
 
   return (
