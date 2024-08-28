@@ -43,13 +43,13 @@ const Experience = () => {
         <div
           className={`fixed top-0 left-0 w-full h-full flex items-center justify-center bg-gray-800 bg-opacity-75 p-4 z-50`}
         >
-          <div className={`bg-lime-200 text-black p-8 rounded-lg w-1/2 max-w-lg transform transition-transform duration-500 ease-in-out `}>
-            <h2 className="uppercase text-2xl font-bold">hello !! once again</h2>
+          <div className={`bg-black/70 text-gray-100 p-8 rounded-lg w-1/2 max-w-lg transform transition-transform duration-500 ease-in-out `}>
+            <h2 className="uppercase text-2xl font-bold">Details</h2>
             <p className='list-none font-mono'>
-            During my tenure at Virtual Labs (VLEAD), I was deeply involved in enhancing the educational experience for students through the development and refinement of virtual experiments. My role primarily focused on debugging and optimizing experiments within the electronics section, ensuring their accuracy and effectiveness. I worked on improving the user interface to make it more engaging and intuitive, thereby enhancing the overall learning experience. This role allowed me to combine my technical skills with a passion for educational technology, contributing to the creation of a more accessible and interactive learning environment. Through my contributions, I helped in making complex concepts more comprehensible and engaging for learners.</p>
+            During my tenure at Virtual Labs (VLEAD), I was deeply involved in enhancing the educational experience for students through the development and refinement of virtual experiments benefiting a user base of 7.5 million. My role primarily focused on debugging and optimizing experiments within the electronics section, ensuring their accuracy and effectiveness. I worked on improving the user interface to make it more engaging and intuitive, thereby enhancing the overall learning experience. This role allowed me to combine my technical skills with a passion for educational technology, contributing to the creation of a more accessible and interactive learning environment. </p>
             <button
               onClick={toggleVisibility}
-              className="mt-4 px-4 py-2 bg-black/70 text-white rounded hover:scale-110"
+              className="mt-4 px-4 py-2 bg-cyan-800/50 hover:bg-cyan-950 transition transform ease-in text-white rounded hover:scale-110"
             >
               Close
             </button>

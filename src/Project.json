@@ -1,5 +1,13 @@
 [
     {
+        "name": "Social Media Application",
+        "desc": "  Developed a fully functional social media application using the MERN. The application includes key features such as user authentication, profile creation, posting updates, liking and commenting on posts, real-time notifications, and a chat system. "
+    },
+    {
+        "name": " Calender",
+        "desc": "  Developed an interactive calendar application using React with the following    features like Calendar View, Adding, editing, Deleting and filtering Event using REACT"
+    },
+    {
         "name": "Amazon Clone",
         "desc": "Engineered a static webpage replicating Amazon’s interface using HTML and CSS. Focused on the layout, design, and responsiveness to create a visually similar experience to the actual Amazon website."
     },

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import photo from '../images/photo.jpeg'
 const About = () => {
   const [isVisible, setIsVisible] = useState(false);
 
@@ -10,7 +10,7 @@ const About = () => {
   return (
     <div id="about" className='relative h-auto w-full flex flex-col lg:flex-row items-center p-6 lg:p-12 bg-gray-900/60'>
       <div className='w-full lg:w-1/3 flex justify-center lg:justify-start mb-6 lg:mb-0'>
-        {/* <img className="rounded-full w-48 h-48 lg:w-64 lg:h-64 object-cover shadow-lg" src={photo} alt="Profile" /> */}
+        <img className="rounded-full w-48 h-48 lg:w-64 lg:h-64 object-cover shadow-lg" src={photo} alt="Profile" />
       </div>
       <div className='w-full lg:w-2/3 p-6 bg-slate-800/50 rounded-lg shadow-lg text-white'>
         <h2 data-aos="fade-left" className='font-extrabold text-3xl lg:text-4xl mb-4'>HELLO!!!</h2>

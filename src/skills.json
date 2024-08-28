@@ -28,6 +28,26 @@
         "name":"Matlab"
         },
         {
-            "name":"Arduino Programming"
-            }
+            "name":"MongoDB"
+            },
+            {
+                "name":"Express.js"
+                }
+                ,
+    {
+        "name":"Node.js"
+        }
+        ,
+    {
+        "name":"Mern"
+        },
+        {
+            "name":"Next.js"
+            },
+            {
+                "name":"FrontEnd Development"
+                },
+                {
+                    "name":"BackEnd Development"
+                    }
 ]
